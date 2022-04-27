@@ -11,6 +11,10 @@
 		B4684118281849DF00BF7BF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4684117281849DF00BF7BF2 /* ContentView.swift */; };
 		B468411A281849E300BF7BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4684119281849E300BF7BF2 /* Assets.xcassets */; };
 		B468411D281849E300BF7BF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B468411C281849E300BF7BF2 /* Preview Assets.xcassets */; };
+		B468412428184CC600BF7BF2 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468412328184CC600BF7BF2 /* Webservice.swift */; };
+		B468412628184D0200BF7BF2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468412528184D0200BF7BF2 /* Movie.swift */; };
+		B46841282818558500BF7BF2 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B46841272818558500BF7BF2 /* MovieListViewModel.swift */; };
+		B4EC9BC528185F8700F255A9 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EC9BC428185F8700F255A9 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		B4684117281849DF00BF7BF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4684119281849E300BF7BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B468411C281849E300BF7BF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B468412328184CC600BF7BF2 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		B468412528184D0200BF7BF2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		B46841272818558500BF7BF2 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
+		B4EC9BC328185DF200F255A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B4EC9BC428185F8700F255A9 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +60,15 @@
 		B4684114281849DF00BF7BF2 /* MovieSearchApp */ = {
 			isa = PBXGroup;
 			children = (
+				B4EC9BC328185DF200F255A9 /* Info.plist */,
 				B4684115281849DF00BF7BF2 /* MovieSearchAppApp.swift */,
 				B4684117281849DF00BF7BF2 /* ContentView.swift */,
 				B4684119281849E300BF7BF2 /* Assets.xcassets */,
 				B468411B281849E300BF7BF2 /* Preview Content */,
+				B468412328184CC600BF7BF2 /* Webservice.swift */,
+				B468412528184D0200BF7BF2 /* Movie.swift */,
+				B46841272818558500BF7BF2 /* MovieListViewModel.swift */,
+				B4EC9BC428185F8700F255A9 /* String+Extensions.swift */,
 			);
 			path = MovieSearchApp;
 			sourceTree = "<group>";
@@ -139,6 +153,10 @@
 			files = (
 				B4684118281849DF00BF7BF2 /* ContentView.swift in Sources */,
 				B4684116281849DF00BF7BF2 /* MovieSearchAppApp.swift in Sources */,
+				B468412628184D0200BF7BF2 /* Movie.swift in Sources */,
+				B468412428184CC600BF7BF2 /* Webservice.swift in Sources */,
+				B4EC9BC528185F8700F255A9 /* String+Extensions.swift in Sources */,
+				B46841282818558500BF7BF2 /* MovieListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +287,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MovieSearchApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieSearchApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"MovieSearchApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MovieSearchApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
